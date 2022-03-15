@@ -20,9 +20,11 @@ Node.js 16.9.1 version 이상 설치되어있어야 합니다.
 
 ```bash
 # npm
+cd electron
 npm i
 
 # yarn
+cd electron
 yarn
 ```
 
@@ -30,9 +32,11 @@ yarn
 
 ```bash
 # npm
+cd electron
 npm run make
 
 # yarn
+cd electron
 yarn make
 ```
 
