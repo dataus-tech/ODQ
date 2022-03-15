@@ -15,6 +15,11 @@ HTML, CSS, JavaScript로 작성된 SPA입니다.
 [사용자 메뉴얼](https://github.com/dataus-tech/odq/wiki/ODQ-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A9%94%EB%89%B4%EC%96%BC) | 
 [다운로드](https://github.com/dataus-tech/ODQ/wiki)
 
+## Docker Run
+```bash
+docker run -d -p 80:80 bchwang/tomcat_mariadb:nginx-odq1.0
+```
+
 ## 패키지 의존성 모듈 설치
 
 Node.js 16.9.1 version 이상 설치되어있어야 합니다.
