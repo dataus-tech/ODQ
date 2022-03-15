@@ -39,9 +39,9 @@ describe('날짜 지정 룰셋 유효성 검사', () => {
     expect(dateRuleset.valid(cell, { id })).toBe(false);
   });
 
-  it('빈 값 들어오면 false를 반환해야 합니다.', () => {
+  it('빈 값 들어오면 true를 반환해야 합니다.', () => {
     const [id, cell] = ['dtYYYY', ''];
-    expect(dateRuleset.valid(cell, { id })).toBe(false);
+    expect(dateRuleset.valid(cell, { id })).toBe(true);
   });
 
   it('3 false를 반환해야 합니다.', () => {

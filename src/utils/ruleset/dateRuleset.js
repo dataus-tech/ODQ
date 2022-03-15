@@ -5,7 +5,8 @@ export const dateRuleset = {
   valid: (cell, { id }) => {
     if (typeof cell !== 'string') return false;
     return (
-      isMatch(cell, getDateRulesetFormat(id)) && cell.length === getDateRulesetFormat(id).length
+      cell === '' ||
+      (isMatch(cell, getDateRulesetFormat(id)) && cell.length === getDateRulesetFormat(id).length)
     );
   },
   repair: (cell, { id }) => {
@@ -68,7 +69,6 @@ export const dateRuleset = {
                 [y, m.padStart(2, '0'), d.slice(0, 2)].join('-') +
                 ' ' +
                 d.slice(2).padStart(2, '0');
-            console.log(`value: ${value}`);
           }
           break;
         case 'dtMMDDHH24MI':
