@@ -1,0 +1,47 @@
+[data-component='data-grid'] article{
+  height: 80vh;
+}
+
+[data-component='data-grid'] #data-grid {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+[data-component='data-grid'] select {
+  width: 80%;
+}
+
+[data-component='data-grid'] input[type='check'] {
+  opacity: 0;
+  position: absolute;
+}
+
+[data-component='data-grid'] input[type='check']:before {
+  content: '';
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+[data-component='data-grid'] input[type='check']:checked {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 5px;
+  border: solid blue;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  border-radius: 0px;
+  margin: 0px 15px 5px 5px;
+}

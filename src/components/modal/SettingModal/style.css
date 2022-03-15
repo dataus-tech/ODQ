@@ -1,0 +1,12 @@
+/* [data-component='setting-modal'] .form-control {
+  display: inline;
+  width: 200px;
+} */
+
+[data-component='setting-modal'] #one-grid {
+  display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #bcbcbc;
+	cursor: pointer;
+}

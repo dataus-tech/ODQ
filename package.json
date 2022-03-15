@@ -1,0 +1,66 @@
+{
+  "name": "odq",
+  "version": "1.0.0",
+  "description": "데이터 관리",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "webpack serve --mode=production",
+    "start:dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=production",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalcon10028/gdq-clone.git"
+  },
+  "author": "이연권",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalcon10028/gdq-clone/issues"
+  },
+  "homepage": "https://github.com/dalcon10028/gdq-clone#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^37.6.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
+    "mini-css-extract-plugin": "^2.4.6",
+    "prettier": "^2.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  },
+  "dependencies": {
+    "core-js": "^3.20.2",
+    "date-fns": "^2.28.0",
+    "detect-file-encoding-and-language": "^2.1.0",
+    "fxjs": "^0.21.3",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "npm": "^8.3.0",
+    "papaparse": "^5.3.1",
+    "regenerator-runtime": "^0.13.9",
+    "slickgrid": "^2.4.44",
+    "validator": "^13.7.0"
+  }
+}

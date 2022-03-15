@@ -1,0 +1,15 @@
+[data-component="whether-modal"] .form-control {
+  display: inline;
+  width: 200px;
+}
+
+[data-component="whether-modal"] p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+[data-component="whether-modal"] .emphasis {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: crimson;
+}

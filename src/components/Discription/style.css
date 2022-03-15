@@ -1,0 +1,7 @@
+[data-component="discription"] strong {
+  font-weight: bold;
+}
+
+[data-component="discription"] p {
+  margin-top: 0.3rem;
+}

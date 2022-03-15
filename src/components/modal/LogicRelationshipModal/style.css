@@ -1,0 +1,30 @@
+[data-component="logic-relationship-modal"] .form-control {
+  display: inline;
+  width: 200px;
+}
+
+[data-component="logic-relationship-modal"] .radio-box {
+  margin-left: 2rem;
+  line-height: 27px;
+  display: inline-block;
+}
+
+[data-component="logic-relationship-modal"] form-check-inline {
+  line-height: 27px;
+}
+
+[data-component="logic-relationship-modal"] p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+[data-component="logic-relationship-modal"] .emphasis {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: crimson;
+}
+
+[data-component="logic-relationship-modal"] .bold {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

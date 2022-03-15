@@ -1,0 +1,30 @@
+[data-component="formula-modal"] .form-control {
+  display: inline;
+  width: 200px;
+}
+
+[data-component="formula-modal"] .radio-box {
+  margin-left: 2rem;
+  line-height: 27px;
+  display: inline-block;
+}
+
+[data-component="formula-modal"] form-check-inline {
+  line-height: 27px;
+}
+
+[data-component="formula-modal"] p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+[data-component="formula-modal"] .emphasis {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: crimson;
+}
+
+[data-component="formula-modal"] .bold {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

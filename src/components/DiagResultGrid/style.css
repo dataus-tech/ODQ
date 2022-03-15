@@ -1,0 +1,26 @@
+[data-component="diag-result-grid"] section {
+  height: 15vh;
+}
+
+#diag-result-grid {
+  overflow: scroll;
+  height: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#diag-result-grid p {
+  margin: 0;
+}
+
+/* 진단 결과 */
+[data-component="diag-result-grid"] #diag-result-grid .diag-result {
+  color: red;
+  text-align: start;
+}
+
+/* 표현형식 */
+[data-component="diag-result-grid"] #diag-result-grid .format {
+  color: blue;
+  text-align: start;
+}

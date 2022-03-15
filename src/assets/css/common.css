@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Noto Sans KR', sans-serif;
+  src: url(../fonts/Noto_Sans_KR/NotoSansKR-Medium.otf);
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 그리드 폰트 설정 */
+div.slick-cell {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.row {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.id-columns {
+  border-right-color: silver;
+  border-right-style: solid;
+  background: #f5f5f5;
+  color: gray;
+}
+
+.my-tooltip {
+  font-size: 1rem;
+}
+
+.error-cell {
+  color: white;
+  background-color: rgb(201, 24, 24);
+}
+
+.repaired-cell {
+  color: blue;
+}

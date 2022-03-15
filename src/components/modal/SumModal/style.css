@@ -1,0 +1,30 @@
+[data-component="sum-modal"] .form-control {
+  display: inline;
+  width: 200px;
+}
+
+[data-component="sum-modal"] .radio-box {
+  margin-left: 2rem;
+  line-height: 27px;
+  display: inline-block;
+}
+
+[data-component="sum-modal"] form-check-inline {
+  line-height: 27px;
+}
+
+[data-component="sum-modal"] p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+[data-component="sum-modal"] .emphasis {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: crimson;
+}
+
+[data-component="sum-modal"] .bold {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

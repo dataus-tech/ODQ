@@ -1,0 +1,9 @@
+성능개선테스트
+node_modules
+package-lock.json
+yarn.lock
+gdq-ruleset-sql.zip
+
+# test csv files
+F200005092.csv
+F100000278(200MB).csv

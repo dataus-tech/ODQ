@@ -1,0 +1,28 @@
+[data-component="loading-spinner"] .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  cursor: pointer;
+}
+
+[data-component="loading-spinner"] .spinner-border {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  position: fixed;
+  top: calc(50% - (58px / 2));
+  right: calc(50% - (58px / 2));
+}
+
+[data-component="loading-spinner"] img {
+  max-width: 80vw;
+  max-height: 90vh;
+  display: block;
+  /* position: fixed; */
+  /* top: calc(50% - (58px / 2));
+  right: calc(50% - (58px / 2)); */
+}

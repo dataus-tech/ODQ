@@ -1,0 +1,818 @@
+Thu 23 Dec 2021 05:00:01 AM KST
+Already up to date.
+Thu 23 Dec 2021 06:00:01 PM KST
+Updating 6cb33a8..a641377
+Fast-forward
+ index.html                                         |    1 +
+ src/App.js                                         |   42 +-
+ src/assets/css/main.css                            |    1 +
+ src/components/ControlBox/index.js                 |   10 +-
+ src/components/DataCount/index.js                  |   17 +-
+ src/components/DataGrid/index.js                   |  140 +--
+ src/components/DataGrid/style.css                  |    6 +
+ src/components/DiagResultGrid/index.js             |    4 -
+ src/components/DiagResultGrid/style.css            |    4 +
+ src/components/Discription/index.js                |   23 +-
+ src/components/Discription/style.css               |    4 +
+ src/components/ModalDate/index.js                  |  105 +-
+ src/components/RepairGrid/index.js                 |   81 +-
+ src/components/RepairGrid/style.css                |    6 +-
+ src/components/StartRow/index.js                   |    9 +-
+ src/constants/diagtype.js                          |   51 +-
+ src/lib/moment/moment.js                           |    2 +
+ src/utils/csv.js                                   |    2 +-
+ src/utils/grid-formatter.js                        |   30 +
+ test.csv                                           |    2 +-
+ ...6\221\355\226\211 \354\235\264\354\203\201.csv" | 1017 ++++++++++++++++++++
+ 21 files changed, 1372 insertions(+), 185 deletions(-)
+ create mode 100644 src/components/Discription/style.css
+ create mode 100644 src/lib/moment/moment.js
+ create mode 100644 src/utils/grid-formatter.js
+ create mode 100644 "\354\213\234\354\236\221\355\226\211 \354\235\264\354\203\201.csv"
+Fri 24 Dec 2021 05:00:01 AM KST
+Already up to date.
+Fri 24 Dec 2021 06:00:01 PM KST
+Updating 5b81a8b..086f3b3
+Fast-forward
+ index.html                                         |  1 +
+ src/App.js                                         | 14 +++++++--
+ src/components/DataGrid/index.js                   |  7 ++---
+ src/components/DataGrid/style.css                  |  2 +-
+ src/components/Discription/index.js                | 13 ++++-----
+ src/components/Discription/style.css               |  7 +++--
+ src/components/RepairGrid/index.js                 | 33 +++++++++++++++++-----
+ src/components/RepairGrid/style.css                |  8 ++++--
+ src/constants/progress.js                          | 10 ++++++-
+ src/lib/date_fns/date_fns.js                       |  4 +++
+ src/utils/grid-formatter.js                        | 15 ++++++++--
+ ...6\221\355\226\211 \354\235\264\354\203\201.csv" |  2 +-
+ 12 files changed, 86 insertions(+), 30 deletions(-)
+ create mode 100644 src/lib/date_fns/date_fns.js
+Sat 25 Dec 2021 05:00:01 AM KST
+Updating 8bce862..8906610
+Fast-forward
+ src/components/ControlBox/index.js | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Sat 25 Dec 2021 06:00:01 PM KST
+Already up to date.
+Sun 26 Dec 2021 05:00:01 AM KST
+Already up to date.
+Sun 26 Dec 2021 06:00:01 PM KST
+Already up to date.
+Mon 27 Dec 2021 05:00:01 AM KST
+Already up to date.
+Mon 27 Dec 2021 06:00:01 PM KST
+Updating a1c1006..cd03684
+Fast-forward
+ index.html                          |  4 ++++
+ src/App.js                          |  7 +++++--
+ src/components/DataGrid/index.js    |  7 +++++--
+ src/components/Discription/index.js |  8 ++++++++
+ src/components/ModalDate/index.js   | 39 ++++++++++++++++++++++++++++++++----
+ src/components/RepairGrid/index.js  |  4 ++++
+ src/constants/diagtype.js           | 40 +++++++++++++++++++++----------------
+ 7 files changed, 84 insertions(+), 25 deletions(-)
+Tue 28 Dec 2021 05:00:01 AM KST
+Already up to date.
+Tue 28 Dec 2021 06:00:01 PM KST
+Updating f7b34ae..6ee18e2
+Fast-forward
+ docs/code-review.pptx                              | Bin 0 -> 1143743 bytes
+ src/App.js                                         |   6 +-
+ src/components/DataGrid/index.js                   |  13 ++-
+ src/components/DiagResultGrid/index.js             | 103 +++++++++++++++++----
+ src/components/DiagResultGrid/style.css            |   5 +-
+ src/constants/diagtype.js                          |  17 +++-
+ src/utils/grid-formatter.js                        |  19 +++-
+ src/utils/ruleset.js                               |   0
+ test.csv => testFiles/test.csv                     |   0
+ ...6\221\355\226\211 \354\235\264\354\203\201.csv" |   0
+ 10 files changed, 128 insertions(+), 35 deletions(-)
+ create mode 100644 docs/code-review.pptx
+ create mode 100644 src/utils/ruleset.js
+ rename test.csv => testFiles/test.csv (100%)
+ rename "\354\213\234\354\236\221\355\226\211 \354\235\264\354\203\201.csv" => "testFiles/\354\213\234\354\236\221\355\226\211 \354\235\264\354\203\201.csv" (100%)
+Wed 29 Dec 2021 05:00:01 AM KST
+Already up to date.
+Wed 29 Dec 2021 06:00:01 PM KST
+Updating 0d71e1e..4856d3d
+Fast-forward
+ docs/code-review.pptx                  | Bin 1143743 -> 1151464 bytes
+ src/App.js                             |   3 +--
+ src/components/ControlBox/index.js     |  42 +++++++++++++--------------------
+ src/components/DataGrid/index.js       |   4 +---
+ src/components/DataGrid/style.css      |   3 +--
+ src/components/DiagResultGrid/index.js |  42 ++++++++++++++++-----------------
+ src/constants/ruleset.js               |   0
+ 7 files changed, 39 insertions(+), 55 deletions(-)
+ create mode 100644 src/constants/ruleset.js
+Thu 30 Dec 2021 05:00:01 AM KST
+Already up to date.
+Thu 30 Dec 2021 06:00:01 PM KST
+Updating 4bcb9dd..ed2fedb
+Fast-forward
+ index.html                                         |       1 +
+ src/App.js                                         |     288 +-
+ src/components/ControlBox/index.js                 |      92 +-
+ src/components/DataCount/index.js                  |      34 +-
+ src/components/DataGrid/index.js                   |     278 +-
+ src/components/DiagResultGrid/index.js             |     243 +-
+ src/components/Discription/index.js                |      39 +-
+ src/components/LoadingSpinner/index.js             |      24 +-
+ src/components/ModalDate/index.js                  |     438 +-
+ src/components/RepairGrid/index.js                 |     178 +-
+ src/components/SelectFile/index.js                 |      98 +-
+ src/components/StartRow/index.js                   |      72 +-
+ src/constants/diagtype.js                          |     187 +-
+ src/constants/progress.js                          |      12 +-
+ src/lib/fxjs/fx.es5.js                             |       2 +
+ src/lib/fxjs/fx.js                                 |       2 +
+ src/utils/grid-formatter.js                        |      12 +-
+ src/utils/selector.js                              |      12 +-
+ .../100\353\247\214\352\261\264(87.2MB).csv"       | 1000001 +++++++++++++++++
+ ...354\247\234 \355\217\254\353\247\267(85KB).csv" |       2 +-
+ ...\354\213\234\354\236\221\355\226\211(85KB).csv" |       0
+ "testFiles/50\353\247\214\352\261\264(43.6MB).csv" |  500001 +++++++++
+ 22 files changed, 1501064 insertions(+), 952 deletions(-)
+ create mode 100644 src/lib/fxjs/fx.es5.js
+ create mode 100644 src/lib/fxjs/fx.js
+ create mode 100644 "testFiles/100\353\247\214\352\261\264(87.2MB).csv"
+ rename testFiles/test.csv => "testFiles/1015\352\261\264 \353\202\240\354\247\234 \355\217\254\353\247\267(85KB).csv" (98%)
+ rename "testFiles/\354\213\234\354\236\221\355\226\211 \354\235\264\354\203\201.csv" => "testFiles/1015\352\261\264 \354\213\234\354\236\221\355\226\211(85KB).csv" (100%)
+ create mode 100644 "testFiles/50\353\247\214\352\261\264(43.6MB).csv"
+Fri 31 Dec 2021 05:00:01 AM KST
+Already up to date.
+Fri 31 Dec 2021 06:00:01 PM KST
+Already up to date.
+Sat 01 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sat 01 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sun 02 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sun 02 Jan 2022 06:00:01 PM KST
+Already up to date.
+Mon 03 Jan 2022 05:00:01 AM KST
+Already up to date.
+Mon 03 Jan 2022 06:00:01 PM KST
+Updating 9021f5a..5610448
+Fast-forward
+ .gitignore                                         |      1 +
+ .prettierignore                                    |      1 +
+ src/App.js                                         |     98 +-
+ src/components/ControlBox/index.js                 |     14 +-
+ src/components/DiagFileDownload/index.js           |     39 +
+ src/components/DiagResultGrid/index.js             |      5 +-
+ src/components/LoadingSpinner/index.js             |     13 +-
+ src/core/Component.js                              |     29 +
+ src/main.js                                        |      2 +-
+ .../50000data.dd.js"                               | 500002 ++++++++++++++++++
+ .../date-fns.dd.js"                                |      4 +
+ .../day.dd.js"                                     |      1 +
+ .../main.js"                                       |     39 +
+ .../moment.dd.js"                                  |      2 +
+ .../test.html"                                     |     15 +
+ .../testcolumns.dd.js"                             |    185 +
+ 16 files changed, 500387 insertions(+), 63 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 .prettierignore
+ create mode 100644 src/components/DiagFileDownload/index.js
+ create mode 100644 src/core/Component.js
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/50000data.dd.js"
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/date-fns.dd.js"
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/day.dd.js"
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/main.js"
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/moment.dd.js"
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/test.html"
+ create mode 100644 "\354\204\261\353\212\245\352\260\234\354\204\240\355\205\214\354\212\244\355\212\270/testcolumns.dd.js"
+Tue 04 Jan 2022 05:00:01 AM KST
+Already up to date.
+Tue 04 Jan 2022 06:00:01 PM KST
+Already up to date.
+Wed 05 Jan 2022 05:00:01 AM KST
+Already up to date.
+Wed 05 Jan 2022 06:00:01 PM KST
+Updating 79f8a85..58b7343
+Fast-forward
+ output/fileList.html             | 50 ++++++++---------------------
+ output/metaList.html             | 61 ++++++++++-------------------------
+ output/taskList.html             | 69 ++++++++++++----------------------------
+ src/components/StartRow/index.js | 28 +++++++---------
+ src/core/Component.js            |  8 ++---
+ 5 files changed, 65 insertions(+), 151 deletions(-)
+Thu 06 Jan 2022 05:00:01 AM KST
+Already up to date.
+Thu 06 Jan 2022 06:00:01 PM KST
+Already up to date.
+Fri 07 Jan 2022 05:00:01 AM KST
+Already up to date.
+Fri 07 Jan 2022 06:00:01 PM KST
+Updating ca9bbb4..11f60e8
+Fast-forward
+ src/App.js                          |  15 ++-
+ src/assets/css/common.css           |   5 +
+ src/components/DataGrid/index.js    | 182 ++++++++++++--------------------
+ src/components/DataGrid/style.css   |  45 +++++++-
+ src/components/DateModal/index.js   | 147 ++++++++++++--------------
+ src/components/DateModal/style.css  |   4 +-
+ src/components/Discription/index.js |  43 ++++----
+ src/components/ErrorModal/index.js  |  28 +++++
+ src/components/SelectFile/index.js  |  44 ++++----
+ src/components/common/Grid.js       |  59 +++++++++++
+ src/constants/ruleset.js            | 203 ++++++++++++++++++++++++++++++++++++
+ src/utils/ruleset.js                |  35 +++++++
+ 12 files changed, 561 insertions(+), 249 deletions(-)
+ create mode 100644 src/components/ErrorModal/index.js
+ create mode 100644 src/components/common/Grid.js
+Sat 08 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sat 08 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sun 09 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sun 09 Jan 2022 06:00:01 PM KST
+Already up to date.
+Mon 10 Jan 2022 05:00:01 AM KST
+Already up to date.
+Mon 10 Jan 2022 06:00:01 PM KST
+Already up to date.
+Tue 11 Jan 2022 05:00:01 AM KST
+Already up to date.
+Wed 12 Jan 2022 06:00:01 PM KST
+Already up to date.
+Thu 13 Jan 2022 05:00:01 AM KST
+Already up to date.
+Thu 13 Jan 2022 06:00:01 PM KST
+Updating e9f6c6f..4245c53
+Fast-forward
+ dist/app.js                                        |     4 +-
+ dist/index.html                                    |     2 +-
+ electron/.gitignore                                |    89 +
+ electron/package.json                              |    58 +
+ electron/src/72ba455576ce8174ffa8.otf              |   Bin 0 -> 4768724 bytes
+ electron/src/app.css                               |   309 +
+ electron/src/app.js                                |     3 +
+ electron/src/app.js.LICENSE.txt                    |     6 +
+ electron/src/index.html                            |     1 +
+ electron/src/index.js                              |    50 +
+ .../bootstrap-5.1.3-dist/css/bootstrap-grid.css    |  5051 +++++++++
+ .../css/bootstrap-grid.css.map                     |     1 +
+ .../css/bootstrap-grid.min.css                     |     7 +
+ .../css/bootstrap-grid.min.css.map                 |     1 +
+ .../css/bootstrap-grid.rtl.css                     |  5050 +++++++++
+ .../css/bootstrap-grid.rtl.css.map                 |     1 +
+ .../css/bootstrap-grid.rtl.min.css                 |     7 +
+ .../css/bootstrap-grid.rtl.min.css.map             |     1 +
+ .../bootstrap-5.1.3-dist/css/bootstrap-reboot.css  |   485 +
+ .../css/bootstrap-reboot.css.map                   |     1 +
+ .../css/bootstrap-reboot.min.css                   |     8 +
+ .../css/bootstrap-reboot.min.css.map               |     1 +
+ .../css/bootstrap-reboot.rtl.css                   |   482 +
+ .../css/bootstrap-reboot.rtl.css.map               |     1 +
+ .../css/bootstrap-reboot.rtl.min.css               |     8 +
+ .../css/bootstrap-reboot.rtl.min.css.map           |     1 +
+ .../css/bootstrap-utilities.css                    |  4866 ++++++++
+ .../css/bootstrap-utilities.css.map                |     1 +
+ .../css/bootstrap-utilities.min.css                |     7 +
+ .../css/bootstrap-utilities.min.css.map            |     1 +
+ .../css/bootstrap-utilities.rtl.css                |  4857 ++++++++
+ .../css/bootstrap-utilities.rtl.css.map            |     1 +
+ .../css/bootstrap-utilities.rtl.min.css            |     7 +
+ .../css/bootstrap-utilities.rtl.min.css.map        |     1 +
+ .../src/lib/bootstrap-5.1.3-dist/css/bootstrap.css | 11266 +++++++++++++++++++
+ .../lib/bootstrap-5.1.3-dist/css/bootstrap.css.map |     1 +
+ .../lib/bootstrap-5.1.3-dist/css/bootstrap.min.css |     7 +
+ .../bootstrap-5.1.3-dist/css/bootstrap.min.css.map |     1 +
+ .../lib/bootstrap-5.1.3-dist/css/bootstrap.rtl.css | 11242 ++++++++++++++++++
+ .../bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map |     1 +
+ .../bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css |     7 +
+ .../css/bootstrap.rtl.min.css.map                  |     1 +
+ .../bootstrap-5.1.3-dist/js/bootstrap.bundle.js    |  6812 +++++++++++
+ .../js/bootstrap.bundle.js.map                     |     1 +
+ .../js/bootstrap.bundle.min.js                     |     7 +
+ .../js/bootstrap.bundle.min.js.map                 |     1 +
+ .../lib/bootstrap-5.1.3-dist/js/bootstrap.esm.js   |  4999 ++++++++
+ .../bootstrap-5.1.3-dist/js/bootstrap.esm.js.map   |     1 +
+ .../bootstrap-5.1.3-dist/js/bootstrap.esm.min.js   |     7 +
+ .../js/bootstrap.esm.min.js.map                    |     1 +
+ .../src/lib/bootstrap-5.1.3-dist/js/bootstrap.js   |  5046 +++++++++
+ .../lib/bootstrap-5.1.3-dist/js/bootstrap.js.map   |     1 +
+ .../lib/bootstrap-5.1.3-dist/js/bootstrap.min.js   |     7 +
+ .../bootstrap-5.1.3-dist/js/bootstrap.min.js.map   |     1 +
+ electron/src/lib/date_fns/date_fns.js              |     4 +
+ electron/src/lib/fxjs/fx.es5.js                    |     2 +
+ electron/src/lib/fxjs/fx.js                        |     2 +
+ electron/src/lib/jquery/jquery-1.7.min.js          |     4 +
+ .../src/lib/jquery/jquery-ui-1.8.16.custom.css     |   409 +
+ electron/src/lib/jquery/jquery.event.drag-2.2.js   |   402 +
+ electron/src/lib/moment/moment.js                  |     2 +
+ electron/src/lib/papaparse/papaparse.min.js        |     7 +
+ electron/src/lib/slickgrid                         |     1 +
+ electron/src/lib/validator/validator.min.js        |    23 +
+ electron/yarn.lock                                 |  3791 +++++++
+ package.json                                       |     9 +-
+ public/index.html                                  |     2 +-
+ src/App.js                                         |     7 -
+ src/components/DiagFileDownload/index.js           |     5 +-
+ src/components/DiagResultGrid/index.js             |    70 +-
+ src/constants/ruleset.js                           |    85 +-
+ src/utils/grid-formatter.js                        |    47 +-
+ src/utils/ruleset.js                               |    11 +-
+ yarn.lock                                          |  5138 +++++++++
+ 74 files changed, 70744 insertions(+), 56 deletions(-)
+ create mode 100644 electron/.gitignore
+ create mode 100644 electron/package.json
+ create mode 100644 electron/src/72ba455576ce8174ffa8.otf
+ create mode 100644 electron/src/app.css
+ create mode 100644 electron/src/app.js
+ create mode 100644 electron/src/app.js.LICENSE.txt
+ create mode 100644 electron/src/index.html
+ create mode 100644 electron/src/index.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.rtl.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.bundle.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.esm.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.js.map
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.min.js
+ create mode 100644 electron/src/lib/bootstrap-5.1.3-dist/js/bootstrap.min.js.map
+ create mode 100644 electron/src/lib/date_fns/date_fns.js
+ create mode 100644 electron/src/lib/fxjs/fx.es5.js
+ create mode 100644 electron/src/lib/fxjs/fx.js
+ create mode 100644 electron/src/lib/jquery/jquery-1.7.min.js
+ create mode 100644 electron/src/lib/jquery/jquery-ui-1.8.16.custom.css
+ create mode 100644 electron/src/lib/jquery/jquery.event.drag-2.2.js
+ create mode 100644 electron/src/lib/moment/moment.js
+ create mode 100644 electron/src/lib/papaparse/papaparse.min.js
+ create mode 160000 electron/src/lib/slickgrid
+ create mode 100644 electron/src/lib/validator/validator.min.js
+ create mode 100644 electron/yarn.lock
+ create mode 100644 yarn.lock
+Fri 14 Jan 2022 05:00:01 AM KST
+Already up to date.
+Fri 14 Jan 2022 06:00:01 PM KST
+Updating 254b6d3..56dbdc7
+Fast-forward
+ public/index.html                                  |    2 +-
+ src/App.js                                         |   42 +-
+ src/components/DataGrid/index.js                   |   10 +-
+ src/components/DiagResultGrid/index.js             |   15 +-
+ src/components/ErrorModal/index.js                 |   28 -
+ src/components/WhetherModal/index.js               |  109 +++
+ src/components/WhetherModal/style.css              |   15 +
+ src/components/common/Modal.js                     |    4 +-
+ src/main.js                                        |    4 +-
+ src/store/index.js                                 |   11 +-
+ src/utils/grid-formatter.js                        |   36 +-
+ src/utils/ruleset.js                               |    5 +-
+ ...352\260\222 \355\217\254\353\247\267(85KB).csv" | 1016 ++++++++++++++++++++
+ 13 files changed, 1215 insertions(+), 82 deletions(-)
+ delete mode 100644 src/components/ErrorModal/index.js
+ create mode 100644 src/components/WhetherModal/index.js
+ create mode 100644 src/components/WhetherModal/style.css
+ create mode 100644 "testFiles/1015\352\261\264 \354\227\254\353\266\200\352\260\222 \355\217\254\353\247\267(85KB).csv"
+Sat 15 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sat 15 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sun 16 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sun 16 Jan 2022 06:00:01 PM KST
+Already up to date.
+Mon 17 Jan 2022 05:00:01 AM KST
+Already up to date.
+Mon 17 Jan 2022 06:00:01 PM KST
+Already up to date.
+Tue 18 Jan 2022 05:00:01 AM KST
+Already up to date.
+Tue 18 Jan 2022 06:00:01 PM KST
+Already up to date.
+Wed 19 Jan 2022 05:00:01 AM KST
+Already up to date.
+Wed 19 Jan 2022 06:00:01 PM KST
+Updating 9b98692..780b4b4
+Fast-forward
+ dist/69c9628c463729fc5f2518faedbcfd12.gif          |  Bin 0 -> 71201 bytes
+ dist/app.css                                       |  109 +-
+ dist/app.js                                        |    4 +-
+ package.json                                       |    1 +
+ src/App.js                                         |   24 +-
+ src/assets/images/nyan-cat.gif                     |  Bin 0 -> 71201 bytes
+ src/components/DataGrid/index.js                   |    6 +
+ src/components/DiagResultGrid/index.js             |   13 +-
+ src/components/LoadingSpinner/index.js             |    6 +-
+ src/components/LoadingSpinner/style.css            |    9 +
+ src/components/RepairGrid/index.js                 |   38 +-
+ src/components/modal/FormulaModal/index.js         |  175 +
+ src/components/modal/FormulaModal/style.css        |   30 +
+ .../modal/LogicRelationshipModal/index.js          |   91 +-
+ .../modal/LogicRelationshipModal/style.css         |   21 +-
+ src/components/modal/PatternModal/index.js         |    4 +-
+ src/components/modal/SumModal/index.js             |  117 +
+ src/components/modal/SumModal/style.css            |   30 +
+ src/components/modal/TimeOrderModal/index.js       |   58 +-
+ src/components/modal/TimeOrderModal/style.css      |    5 +
+ src/components/modal/WhetherModal/index.js         |    4 +-
+ src/utils/grid-formatter.js                        |    1 +
+ src/utils/ruleset.js                               |   17 +-
+ ...352\260\222 \355\217\254\353\247\267(85KB).csv" |    8 +-
+ yarn.lock                                          | 8566 ++++++++++----------
+ 25 files changed, 5017 insertions(+), 4320 deletions(-)
+ create mode 100644 dist/69c9628c463729fc5f2518faedbcfd12.gif
+ create mode 100644 src/assets/images/nyan-cat.gif
+ create mode 100644 src/components/modal/FormulaModal/index.js
+ create mode 100644 src/components/modal/FormulaModal/style.css
+ create mode 100644 src/components/modal/SumModal/index.js
+ create mode 100644 src/components/modal/SumModal/style.css
+Thu 20 Jan 2022 05:00:01 AM KST
+Already up to date.
+Thu 20 Jan 2022 06:00:01 PM KST
+Already up to date.
+Fri 21 Jan 2022 05:00:01 AM KST
+Already up to date.
+Fri 21 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sat 22 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sat 22 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sun 23 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sun 23 Jan 2022 06:00:01 PM KST
+Already up to date.
+Mon 24 Jan 2022 05:00:01 AM KST
+Already up to date.
+Mon 24 Jan 2022 06:00:01 PM KST
+Already up to date.
+Tue 25 Jan 2022 05:00:01 AM KST
+Already up to date.
+Tue 25 Jan 2022 06:00:01 PM KST
+Already up to date.
+Wed 26 Jan 2022 05:00:01 AM KST
+Already up to date.
+Wed 26 Jan 2022 06:00:01 PM KST
+Already up to date.
+Thu 27 Jan 2022 05:00:01 AM KST
+Already up to date.
+Thu 27 Jan 2022 06:00:01 PM KST
+Updating b961959..e6dccce
+Fast-forward
+ public/index.html                  |   1 -
+ src/components/ControlBox/index.js |   9 +-
+ src/utils/ruleset.js               | 172 ++++++++++++++-----
+ tests/ruleset/charge.spec.js       |  92 ++++++++++
+ tests/ruleset/date.spec.js         | 333 ++++++++++++++++++++++++++++++++++++
+ tests/ruleset/number.spec.js       | 335 +++++++++++++++++++++++++++++++++++++
+ tests/ruleset/whether.spec.js      | 107 ++++++++++++
+ webpack.config.js                  |   1 -
+ 8 files changed, 1006 insertions(+), 44 deletions(-)
+ create mode 100644 tests/ruleset/date.spec.js
+ create mode 100644 tests/ruleset/number.spec.js
+ create mode 100644 tests/ruleset/whether.spec.js
+Fri 28 Jan 2022 05:00:01 AM KST
+Already up to date.
+Fri 28 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sat 29 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sat 29 Jan 2022 06:00:01 PM KST
+Already up to date.
+Sun 30 Jan 2022 05:00:01 AM KST
+Already up to date.
+Sun 30 Jan 2022 06:00:01 PM KST
+Already up to date.
+Mon 31 Jan 2022 05:00:01 AM KST
+Already up to date.
+Mon 31 Jan 2022 06:00:01 PM KST
+Already up to date.
+Tue 01 Feb 2022 05:00:01 AM KST
+Already up to date.
+Tue 01 Feb 2022 06:00:01 PM KST
+Already up to date.
+Wed 02 Feb 2022 05:00:01 AM KST
+Already up to date.
+Wed 02 Feb 2022 06:00:01 PM KST
+Already up to date.
+Thu 03 Feb 2022 05:00:01 AM KST
+Already up to date.
+Thu 03 Feb 2022 06:00:01 PM KST
+Updating c46bbdd..f2bc160
+Fast-forward
+ .gitignore                                         |     4 +-
+ src/utils/grid-formatter.js                        |    20 +-
+ src/utils/ruleset.js                               |   132 +-
+ ...352\260\222 \355\217\254\353\247\267(83KB).csv" |     0
+ ...\204\353\213\250 \354\225\210\353\220\250).csv" |   186 +
+ ...\214 \353\254\270\354\240\234\354\240\220).csv" |   163 +
+ ...0\204\355\231\224\353\262\210\355\230\270).csv" |   769 +
+ .../F100002886(\354\227\254\353\266\200 YN).csv"   |  2693 +
+ ...\225\353\271\204 \354\225\210\353\220\250).csv" |    79 +
+ ...\225\353\271\204 \354\225\210\353\220\250).csv" |     5 +
+ ...\204\353\213\250 \354\230\244\353\245\230).csv" |  1734 +
+ ...\204\353\213\250 \354\225\210\353\220\250).csv" |    96 +
+ ...\204\353\213\250 \354\225\210\353\220\250).csv" |    17 +
+ ...\204\353\213\250 \354\230\244\353\245\230).csv" | 49847 +++++++++++++++++++
+ ...234\354\210\230, \352\270\210\354\225\241).csv" |    18 +
+ ...\240\354\247\234 YYYY-MM-DD, \354\234\250).csv" | 10586 ++++
+ ...\353\202\240\354\247\234 YYYY, YYYY-MM-DD).csv" |   311 +
+ ...\200, \353\202\240\354\247\234 YYYY-MM-DD).csv" |  1767 +
+ tests/ruleset/calculation.spec.js                  |     6 +-
+ tests/ruleset/consistency.spec.js                  |    87 +
+ tests/ruleset/count.spec.js                        |   154 +-
+ tests/ruleset/percent.spec.js                      |    71 +
+ 22 files changed, 68662 insertions(+), 83 deletions(-)
+ rename "testFiles/1015\352\261\264 \354\227\254\353\266\200\352\260\222 \355\217\254\353\247\267(85KB).csv" => "testFiles/1015\352\261\264 \354\227\254\353\266\200\352\260\222 \355\217\254\353\247\267(83KB).csv" (100%)
+ create mode 100644 "testFiles/F100002302(\352\263\204\354\202\260\354\213\235 \355\225\251\352\263\204 - \354\247\204\353\213\250 \354\225\210\353\220\250).csv"
+ create mode 100644 "testFiles/F100002739(\354\273\254\353\237\274\354\210\230\352\260\200 \353\247\216\354\235\204\353\225\214 \353\254\270\354\240\234\354\240\220).csv"
+ create mode 100644 "testFiles/F100002853(\354\227\260\353\235\275\354\262\230 \354\240\204\355\231\224\353\262\210\355\230\270).csv"
+ create mode 100644 "testFiles/F100002886(\354\227\254\353\266\200 YN).csv"
+ create mode 100644 "testFiles/F100021315(\354\227\260\353\235\275\354\262\230 \354\232\260\355\216\270\353\262\210\355\230\270 - \354\240\225\353\271\204 \354\225\210\353\220\250).csv"
+ create mode 100644 "testFiles/F100021337(\353\202\240\354\247\234 MM-DD - \354\240\225\353\271\204 \354\225\210\353\220\250).csv"
+ create mode 100644 "testFiles/F100021471(\354\213\234\352\260\204\354\210\234\354\204\234 \354\235\274\352\264\200\354\204\261, \353\202\240\354\247\234 YYYY-MM-DD - \354\247\204\353\213\250 \354\230\244\353\245\230).csv"
+ create mode 100644 "testFiles/F100021611(\352\263\204\354\202\260\354\213\235 \354\202\260\354\213\235 - \354\247\204\353\213\250 \354\225\210\353\220\250).csv"
+ create mode 100644 "testFiles/F100021757(\352\263\204\354\202\260\354\213\235 \355\225\251\352\263\204 - \354\247\204\353\213\250 \354\225\210\353\220\250).csv"
+ create mode 100644 "testFiles/F100022066(\354\213\234\352\260\204\354\210\234\354\204\234 \354\235\274\352\264\200\354\204\261, \353\202\240\354\247\234 YYYY-MM-DD HH24.MI - \354\247\204\353\213\250 \354\230\244\353\245\230).csv"
+ create mode 100644 "testFiles/F100058375(\352\260\234\354\210\230, \352\270\210\354\225\241).csv"
+ create mode 100644 "testFiles/F100058986(\353\202\240\354\247\234 YYYY-MM-DD, \354\234\250).csv"
+ create mode 100644 "testFiles/F100058995(\353\202\240\354\247\234 YYYY, YYYY-MM-DD).csv"
+ create mode 100644 "testFiles/F100063672(\354\247\200\354\240\225\352\260\222\354\227\254\353\266\200, \353\202\240\354\247\234 YYYY-MM-DD).csv"
+ create mode 100644 tests/ruleset/consistency.spec.js
+ create mode 100644 tests/ruleset/percent.spec.js
+Fri 04 Feb 2022 05:00:01 AM KST
+Updating 8b06d17..66550d9
+Fast-forward
+ src/utils/ruleset.js         | 61 ++++++++++++++++++++++++--------------------
+ tests/ruleset/number.spec.js |  6 +++++
+ 2 files changed, 40 insertions(+), 27 deletions(-)
+Fri 04 Feb 2022 06:00:01 PM KST
+Updating 9f546a7..b1e9f4d
+Fast-forward
+ src/App.js                                  |  8 +++-
+ src/components/ControlBox/index.js          |  5 +++
+ src/components/modal/SettingModal/index.js  | 59 +++++++++++++++++++++++++++++
+ src/components/modal/SettingModal/style.css |  4 ++
+ src/main.js                                 |  7 ++++
+ src/utils/localStorage.js                   |  8 ++++
+ 6 files changed, 90 insertions(+), 1 deletion(-)
+ create mode 100644 src/components/modal/SettingModal/index.js
+ create mode 100644 src/components/modal/SettingModal/style.css
+ create mode 100644 src/utils/localStorage.js
+Sat 05 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sat 05 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sun 06 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sun 06 Feb 2022 06:00:01 PM KST
+Already up to date.
+Mon 07 Feb 2022 05:00:01 AM KST
+Already up to date.
+Mon 07 Feb 2022 06:00:01 PM KST
+Already up to date.
+Tue 08 Feb 2022 05:00:01 AM KST
+Already up to date.
+Tue 08 Feb 2022 06:00:01 PM KST
+Updating b890b2e..83f1a43
+Fast-forward
+ dist/app.css                               | 15 ++++++---
+ dist/app.js                                |  4 +--
+ dist/index.html                            |  2 +-
+ package.json                               |  1 +
+ public/index.html                          |  1 -
+ src/App.js                                 | 28 ++++++++++-------
+ src/assets/css/common.css                  | 13 ++++++--
+ src/components/ControlBox/index.js         | 13 +++++---
+ src/components/DataGrid/index.js           |  2 +-
+ src/components/DiagFileDownload/index.js   | 49 ------------------------------
+ src/components/DiagFileDownload/style.css  | 20 ------------
+ src/components/DiagResultGrid/index.js     |  9 +++---
+ src/components/RepairGrid/index.js         |  2 +-
+ src/components/SelectFile/index.js         |  4 +--
+ src/components/StartRow/index.js           |  1 +
+ src/components/common/Grid.js              | 16 ++++++++--
+ src/components/modal/PatternModal/index.js |  5 +--
+ src/constants/diagtype.js                  |  4 ++-
+ src/constants/file.js                      |  9 ++++++
+ src/utils/csv.js                           | 33 +++++++++++++++++++-
+ src/utils/grid-formatter.js                |  1 -
+ src/utils/ruleset.js                       |  2 --
+ yarn.lock                                  |  5 +++
+ 23 files changed, 125 insertions(+), 114 deletions(-)
+ delete mode 100644 src/components/DiagFileDownload/index.js
+ delete mode 100644 src/components/DiagFileDownload/style.css
+ create mode 100644 src/constants/file.js
+Wed 09 Feb 2022 05:00:01 AM KST
+Already up to date.
+Wed 09 Feb 2022 06:00:01 PM KST
+Already up to date.
+Thu 10 Feb 2022 05:00:01 AM KST
+Already up to date.
+Thu 10 Feb 2022 06:00:01 PM KST
+Already up to date.
+Fri 11 Feb 2022 05:00:01 AM KST
+Already up to date.
+Fri 11 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sat 12 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sat 12 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sun 13 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sun 13 Feb 2022 06:00:01 PM KST
+Already up to date.
+Mon 14 Feb 2022 05:00:01 AM KST
+Already up to date.
+Mon 14 Feb 2022 06:00:01 PM KST
+Updating 908afe1..e05aed2
+Fast-forward
+ dist/app.css                                       |    2 +-
+ dist/app.js                                        |    4 +-
+ ...24\204\353\241\234\354\213\234\354\240\200.sql" | 5074 ++++++++++++++++++++
+ public/index.html                                  |    2 +-
+ src/App.js                                         |    8 +-
+ src/components/DataGrid/index.js                   |   25 +-
+ src/components/DataGrid/style.css                  |    9 +-
+ src/components/DiagResultGrid/index.js             |   43 +-
+ src/components/RepairGrid/index.js                 |  101 +-
+ src/components/RepairGrid/style.css                |    6 +-
+ src/components/common/Grid.js                      |   34 +-
+ src/components/modal/DateModal/index.js            |    5 +-
+ src/components/modal/SettingModal/index.js         |   24 +-
+ src/components/modal/SettingModal/style.css        |   12 +-
+ src/constants/file.js                              |    2 +-
+ src/utils/grid-formatter.js                        |  130 +-
+ src/utils/localStorage.js                          |    2 +-
+ 17 files changed, 5332 insertions(+), 151 deletions(-)
+ create mode 100644 "docs/\355\224\204\353\241\234\354\213\234\354\240\200.sql"
+Tue 15 Feb 2022 05:00:01 AM KST
+Already up to date.
+Tue 15 Feb 2022 06:00:01 PM KST
+Updating d8d544c..9fd5d5e
+Fast-forward
+ src/assets/css/common.css               | 13 +++++++
+ src/components/DataGrid/style.css       |  5 ---
+ src/components/DiagResultGrid/index.js  | 20 +++++------
+ src/components/DiagResultGrid/style.css |  5 ---
+ src/components/RepairGrid/index.js      | 47 ++++++++++++++++--------
+ src/components/RepairGrid/style.css     | 15 ++++----
+ src/constants/ruleset.js                |  2 +-
+ src/utils/ruleset/calculationRuleset.js | 49 +++++++++++++++++++++++++
+ src/utils/ruleset/chargeRuleset.js      | 22 ++++++++++++
+ src/utils/ruleset/consistencyRuleset.js | 23 ++++++++++++
+ src/utils/ruleset/countRuleset.js       | 22 ++++++++++++
+ src/utils/ruleset/dateRuleset.js        | 41 +++++++++++++++++++++
+ src/utils/ruleset/index.js              | 11 ++++++
+ src/utils/ruleset/isEssential.js        |  1 +
+ src/utils/ruleset/numberRuleset.js      | 63 +++++++++++++++++++++++++++++++++
+ src/utils/ruleset/percentRuleset.js     | 22 ++++++++++++
+ src/utils/ruleset/stringRuleset.js      |  4 +++
+ src/utils/ruleset/whetherRuleset.js     | 33 +++++++++++++++++
+ 18 files changed, 354 insertions(+), 44 deletions(-)
+ create mode 100644 src/utils/ruleset/calculationRuleset.js
+ create mode 100644 src/utils/ruleset/chargeRuleset.js
+ create mode 100644 src/utils/ruleset/consistencyRuleset.js
+ create mode 100644 src/utils/ruleset/countRuleset.js
+ create mode 100644 src/utils/ruleset/dateRuleset.js
+ create mode 100644 src/utils/ruleset/index.js
+ create mode 100644 src/utils/ruleset/isEssential.js
+ create mode 100644 src/utils/ruleset/numberRuleset.js
+ create mode 100644 src/utils/ruleset/percentRuleset.js
+ create mode 100644 src/utils/ruleset/stringRuleset.js
+ create mode 100644 src/utils/ruleset/whetherRuleset.js
+Wed 16 Feb 2022 05:00:01 AM KST
+Updating c256db2..fda7a45
+Fast-forward
+ dist/app.css                            | 100 ++++++++---
+ dist/app.js                             |   4 +-
+ dist/index.html                         |   2 +-
+ src/utils/grid-formatter.js             |  73 +-------
+ src/utils/ruleset.js                    | 293 --------------------------------
+ src/utils/ruleset/chargeRuleset.js      |   2 +
+ src/utils/ruleset/consistencyRuleset.js |   2 +
+ src/utils/ruleset/countRuleset.js       |   2 +
+ src/utils/ruleset/dateRuleset.js        |  14 +-
+ src/utils/ruleset/index.js              |  22 +--
+ src/utils/ruleset/percentRuleset.js     |   2 +
+ 11 files changed, 111 insertions(+), 405 deletions(-)
+ delete mode 100644 src/utils/ruleset.js
+Wed 16 Feb 2022 06:00:01 PM KST
+Already up to date.
+Thu 17 Feb 2022 05:00:01 AM KST
+Already up to date.
+Thu 17 Feb 2022 06:00:01 PM KST
+Updating b31e4b5..2f55895
+Fast-forward
+ dist/app.js                                       |   4 +-
+ electron/package.json                             |  21 +
+ electron/src/69c9628c463729fc5f2518faedbcfd12.gif | Bin 0 -> 71201 bytes
+ electron/src/app.css                              | 519 ++++++++++++++++------
+ electron/src/app.js                               |   4 +-
+ electron/src/index.html                           |   2 +-
+ electron/src/index.js                             |  50 ---
+ src/utils/ruleset/index.js                        |   1 -
+ webpack.config.js                                 |   4 +-
+ 9 files changed, 402 insertions(+), 203 deletions(-)
+ create mode 100644 electron/src/69c9628c463729fc5f2518faedbcfd12.gif
+ delete mode 100644 electron/src/index.js
+Fri 18 Feb 2022 05:00:01 AM KST
+Already up to date.
+Fri 18 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sat 19 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sat 19 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sun 20 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sun 20 Feb 2022 06:00:01 PM KST
+Already up to date.
+Mon 21 Feb 2022 05:00:01 AM KST
+Already up to date.
+Mon 21 Feb 2022 06:00:01 PM KST
+Already up to date.
+Tue 22 Feb 2022 05:00:01 AM KST
+Already up to date.
+Tue 22 Feb 2022 06:00:01 PM KST
+Already up to date.
+Wed 23 Feb 2022 05:00:01 AM KST
+Already up to date.
+Wed 23 Feb 2022 06:00:01 PM KST
+Already up to date.
+Thu 24 Feb 2022 05:00:01 AM KST
+Already up to date.
+Thu 24 Feb 2022 06:00:01 PM KST
+Already up to date.
+Fri 25 Feb 2022 05:00:01 AM KST
+Already up to date.
+Fri 25 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sat 26 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sat 26 Feb 2022 06:00:01 PM KST
+Already up to date.
+Sun 27 Feb 2022 05:00:01 AM KST
+Already up to date.
+Sun 27 Feb 2022 06:00:01 PM KST
+Already up to date.
+Mon 28 Feb 2022 05:00:01 AM KST
+Already up to date.
+Mon 28 Feb 2022 06:00:01 PM KST
+Already up to date.
+Tue 01 Mar 2022 05:00:01 AM KST
+Already up to date.
+Tue 01 Mar 2022 06:00:01 PM KST
+Already up to date.
+Wed 02 Mar 2022 05:00:01 AM KST
+Already up to date.
+Wed 02 Mar 2022 06:00:01 PM KST
+Updating 4e561a8..76e2f5a
+Fast-forward
+ .gitignore                         |  4 +--
+ auto-github-pull.sh                |  4 +--
+ dist/app.js                        |  4 +--
+ electron/.gitignore                |  1 +
+ electron/package.json              |  3 ++-
+ electron/src/app.js                |  4 +--
+ electron/src/index.js              | 50 ++++++++++++++++++++++++++++++++++++++
+ src/components/ControlBox/index.js |  4 +--
+ src/utils/ruleset/dateRuleset.js   |  6 +++--
+ tests/ruleset/date.spec.js         |  6 +++++
+ 10 files changed, 73 insertions(+), 13 deletions(-)
+ create mode 100644 electron/src/index.js
