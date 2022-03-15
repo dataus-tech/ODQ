@@ -12,7 +12,8 @@ OQD는 UTF8-BOM으로 인코딩된 공공데이터 csv파일의 품질 개선 �
 
 HTML, CSS, JavaScript로 작성된 SPA입니다.
 
-[사용자 메뉴얼](https://github.com/dataus-tech/odq/wiki/ODQ-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A9%94%EB%89%B4%EC%96%BC)
+[사용자 메뉴얼](https://github.com/dataus-tech/odq/wiki/ODQ-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A9%94%EB%89%B4%EC%96%BC) | 
+[다운로드](https://github.com/dataus-tech/ODQ/wiki)
 
 ## 패키지 의존성 모듈 설치
 
