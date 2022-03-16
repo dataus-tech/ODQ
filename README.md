@@ -4,7 +4,7 @@
 
 :electron: Open Data Quality - 공공데이터 품질 개선 도구
 
-## Preview
+## 미리보기
 <p align="center">
   <img width="1196" alt="image" src="https://user-images.githubusercontent.com/30119526/158326928-3baca84e-3ca4-431c-8d56-b0e2bf708ebf.png">
 </p>
@@ -18,7 +18,8 @@ OQD는 UTF8-BOM으로 인코딩된 공공데이터 csv파일의 품질 개선 �
 HTML, CSS, JavaScript로 작성된 SPA입니다.
 
 [사용자 메뉴얼](https://github.com/dataus-tech/odq/wiki/ODQ-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A9%94%EB%89%B4%EC%96%BC) | 
-[다운로드](https://github.com/dataus-tech/ODQ/wiki)
+[다운로드](https://github.com/dataus-tech/ODQ/wiki) | 
+[QnA](https://github.com/dataus-tech/ODQ/wiki/QnA)
 
 ## Docker Run
 ```bash
