@@ -29,26 +29,81 @@ docker run -d -p 80:80 bchwang/tomcat_mariadb:nginx-odq1.0
 
 Node.js 16.9.1 version 이상 설치되어있어야 합니다.
 
+## Webpack
+### 의존성 설치
+
 ```bash
 # npm
-cd electron
 npm i
-
-# yarn
-cd electron
-yarn
 ```
 
-## 빌드
+```bash
+# yarn
+yarn i
+```
+
+### 개발 모드 실행
+```bash
+# npm
+npm run start:dev
+```
+
+```bash
+# yarn
+yarn start:dev
+```
+
+### 빌드
+```bash
+# npm
+npm run build
+```
+
+```bash
+# yarn
+yarn build
+```
+
+### 린트
+```bash
+# npm
+npm run lint
+```
+
+```bash
+# yarn
+yarn lint
+```
+
+## Electron
+### 의존성 설치
 
 ```bash
 # npm
-cd electron
-npm run make
+cd electron & npm i
 
 # yarn
-cd electron
-yarn make
+cd electron & yarn
+```
+
+### 빌드 
+
+```bash
+# npm
+cd electron & npm run make
+
+# yarn
+cd electron & yarn make
+```
+
+## 테스트
+진단 정비 룰셋을 테스트 할 수 있습니다.
+```bash
+# npm 
+npm run test
+
+# yarn
+yarn test
 ```
 
 ## 기여
