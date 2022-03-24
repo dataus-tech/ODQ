@@ -11,7 +11,7 @@
   
 ## 설명
 
-OQD는 UTF8-BOM으로 인코딩된 공공데이터 csv파일의 품질 개선 도구입니다.
+ODQ는 UTF8-BOM으로 인코딩된 공공데이터 csv 파일의 품질 개선 도구입니다.
 
 데스크탑 크로스 플랫폼 프레임워크인 [Electron](https://www.electronjs.org/)으로 구성되었으며
 
@@ -100,7 +100,7 @@ cd electron & yarn make
 ```
 
 ## 테스트
-진단 정비 룰셋을 테스트 할 수 있습니다.
+진단 정비 룰셋을 테스트할 수 있습니다.
 ```bash
 # npm 
 npm run test
@@ -111,9 +111,9 @@ yarn test
 
 ## 기여
 
-[PR](https://github.com/dataus-tech/odq/pulls)을 보내주시면 논의 후 프로젝트에 반영됩니다
+[PR](https://github.com/dataus-tech/odq/pulls)을 보내주시면 논의 후 프로젝트에 반영됩니다.
 
 
 ## 이슈
 
-각종 버그 및 이슈는 [이슈](https://github.com/dataus-tech/odq/issues)등록 해주시면 반영하겠습니다
+각종 버그 및 이슈는 [이슈](https://github.com/dataus-tech/odq/issues)등록해 주시면 반영하겠습니다.
