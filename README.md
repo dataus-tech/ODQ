@@ -19,7 +19,9 @@ HTML, CSS, JavaScript로 작성된 SPA입니다.
 
 [사용자 메뉴얼](https://github.com/dataus-tech/odq/wiki/ODQ-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%A9%94%EB%89%B4%EC%96%BC) | 
 [다운로드](https://github.com/dataus-tech/ODQ/wiki) | 
-[QnA](https://github.com/dataus-tech/ODQ/wiki/QnA)
+[QnA](https://github.com/dataus-tech/ODQ/wiki/QnA) |
+[프로젝트 개요](https://github.com/dataus-tech/ODQ/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94) |
+[컴포넌트 정의서](https://github.com/dataus-tech/ODQ/wiki/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%A0%95%EC%9D%98%EC%84%9C)
 
 ## Docker Run
 ```bash
